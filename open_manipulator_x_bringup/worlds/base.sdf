@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="box_base">
-    <static>false</static>
+    <static>true</static>
     <link name="base_plate">
       <inertial>
-        <mass>0.5</mass>
+        <mass>1.0</mass>
         <inertia>
           <ixx>0.002</ixx>
           <iyy>0.002</iyy>
@@ -20,7 +20,7 @@
         <surface>
           <contact>
             <ode/>
-                <soft_cfm>0.00001</soft_cfm>
+                <soft_cfm>0.000001</soft_cfm>
                 <soft_erp>0.9</soft_erp>
                 <kp>500000</kp>
                 <kd>10</kd>
