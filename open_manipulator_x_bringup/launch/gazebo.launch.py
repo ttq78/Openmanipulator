@@ -173,7 +173,7 @@ def generate_launch_description():
             arguments=[
                 '-file', PathJoinSubstitution([FindPackageShare('open_manipulator_x_bringup'), 'worlds', 'middle_base.sdf']),
                 '-entity', 'box_base_mid',
-                '-x', '0.0', '-y', '0.4', '-z', '0.05',
+                '-x', '0.1', '-y', '0.3', '-z', '0.05',
             ],
             output='screen',
         ),
